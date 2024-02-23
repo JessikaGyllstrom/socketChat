@@ -1,0 +1,124 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/jessikagyllstrom/Library/Mobile Documents/com~apple~CloudDocs/EC-Frontend/socketChatApp/Server/Server.csproj": {}
+  },
+  "projects": {
+    "/Users/jessikagyllstrom/Library/Mobile Documents/com~apple~CloudDocs/EC-Frontend/socketChatApp/Server/Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jessikagyllstrom/Library/Mobile Documents/com~apple~CloudDocs/EC-Frontend/socketChatApp/Server/Server.csproj",
+        "projectName": "Server",
+        "projectPath": "/Users/jessikagyllstrom/Library/Mobile Documents/com~apple~CloudDocs/EC-Frontend/socketChatApp/Server/Server.csproj",
+        "packagesPath": "/Users/jessikagyllstrom/.nuget/packages/",
+        "outputPath": "/Users/jessikagyllstrom/Library/Mobile Documents/com~apple~CloudDocs/EC-Frontend/socketChatApp/Server/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/jessikagyllstrom/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/jessikagyllstrom/Library/Mobile Documents/com~apple~CloudDocs/EC-Frontend/socketChatApp/Shared/Shared.csproj": {
+                "projectPath": "/Users/jessikagyllstrom/Library/Mobile Documents/com~apple~CloudDocs/EC-Frontend/socketChatApp/Shared/Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.23.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/jessikagyllstrom/Library/Mobile Documents/com~apple~CloudDocs/EC-Frontend/socketChatApp/Shared/Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jessikagyllstrom/Library/Mobile Documents/com~apple~CloudDocs/EC-Frontend/socketChatApp/Shared/Shared.csproj",
+        "projectName": "Shared",
+        "projectPath": "/Users/jessikagyllstrom/Library/Mobile Documents/com~apple~CloudDocs/EC-Frontend/socketChatApp/Shared/Shared.csproj",
+        "packagesPath": "/Users/jessikagyllstrom/.nuget/packages/",
+        "outputPath": "/Users/jessikagyllstrom/Library/Mobile Documents/com~apple~CloudDocs/EC-Frontend/socketChatApp/Shared/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/jessikagyllstrom/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

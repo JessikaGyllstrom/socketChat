@@ -1,0 +1,8 @@
+ChatApp/bin
+ChatApp/obj
+ChatServ/bin
+ChatServ/obj
+Shared/obj
+Shared/bin
+.config
+.vs
